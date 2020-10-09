@@ -1,8 +1,7 @@
 module MyExample
 
-greet() = print("Hello World!")
-# Write your package code here.
-include("extra_file.jl")
+    include("extra_file.jl")
 
+    export my_f
 
 end
